@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+    <title>CAD - Poszukiwani</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content='IE=edge, chrome=1'/>
+    <meta name='author' content='Maciej Adamczuk'/>
+    <link rel='stylesheet' href='../assets/styles/style.css' type='text/css'/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+
+        <div class=" d-flex justify-content-between px-4 py-2 text-light">
+            <div>CAD BETA</div>
+            <div>Zalogowano jako: Chris Hart | <a class='text-light' href='#'>Wyloguj</a></div>
+        </div>
+        <nav class="ps-3 navbar navbar-expand-sm navbar-dark bg-navbar">
+          <button class=" ml-3 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Strona Główna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="notatnik.html">Notatnik</a>
+              </li>
+              <li class="nav-item dropdown dmenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Obywatele
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="bolo.html">Poszukiwani</a>
+                <a class="dropdown-item" href="obywatel.html">Wyszukaj obywatela</a>
+                <a class="dropdown-item" href="pojazd.html">Wyszukaj Pojazd</a>
+              </div>
+            </li>
+             <li class="nav-item dropdown dmenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                LSPD
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="patrole.html">Patrole</a>
+                <a class="dropdown-item" href="patrol.html">Mój patrol</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown dmenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dodaj wpis
+              </a>
+              <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="bolo-wpis.html">BOLO</a>
+                <a class="dropdown-item" href="mandat-wpis.html">Mandat</a>
+                <a class="dropdown-item" href="kartoteka-wpis.html">Kartoteka</a>
+              </div>
+            </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id='wpis'>
+            <div class='container'>
+                <div id='bolo' class='title'>Utwórz wpis na bolo</div>
+                <div id='id-bolo' class='container text-center unactive'>
+                    <form class='mt-5'>
+                        <input type='text' placeholder="Imię i nazwisko"><br>
+                        <input class='mt-3' type='text' placeholder="Wpisujący"><br>
+                        <textarea class='mt-4' placeholder="Powód"></textarea><br>
+                    </form>
+                </div>
+                <div id='mandat' class='title'>Utwórz mandat</div>
+                <div id='id-mandat' class='container text-center unactive'>
+                    <form class='mt-5'>
+                        <input type='text' placeholder="Imię i nazwisko"><br>
+                        <input class='mt-3' type='text' placeholder="Wpisujący"><br>
+                        <input class='mt-3' type='text' placeholder="Kara"><br>
+                        <textarea class='mt-4' placeholder="Powód"></textarea><br>
+                    </form>
+                </div>
+                <div id='kart' class='title'>Utwórz kartotekę</div>
+                <div id='id-kart' class='container text-center unactive'>
+                    <form class='mt-5'>
+                        <input type='text' placeholder="Imię i nazwisko"><br>
+                        <input class='mt-3' type='text' placeholder="Wpisujący"><br>
+                        <input class='mt-3' type='text' placeholder="Kara"><br>
+                        <textarea class='mt-4' placeholder="Powód"></textarea><br>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class='footer fixed-bottom mb-2'>
+        <hr>
+        LSPD CAD Vinity RP | &copy; 2021<br>
+        Wersja: {BETA}
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src='../index.js' type="text/javascript"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
